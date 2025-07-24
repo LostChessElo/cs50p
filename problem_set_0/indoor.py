@@ -5,7 +5,3 @@ def indoor_voice():
     else:
         return s
 print(indoor_voice())
-
-
-
-
