@@ -4,6 +4,3 @@ def faces():
         new_string= user_input.replace(':)', '🙂').replace(':(', '🙁')
     return new_string
 print(faces())
-
-
-
