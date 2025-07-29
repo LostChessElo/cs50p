@@ -1,4 +1,6 @@
 # cs50p
+#This README will be used as a journel to document my journey throrugh cs50p 
+
 
 --cs50p p_set-0--
 
