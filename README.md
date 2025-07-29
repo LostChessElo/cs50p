@@ -1,4 +1,5 @@
 #CS50P
+
 #This README will be used as a journel to document my journey throrugh cs50p 
 
 
