@@ -56,4 +56,15 @@ Separating my programs into bite-sized functions to improve readability
 Making it easier to test and debug
 Once Problem Set 5 is completed, I will focus on updating my previous sets to practice breaking down code into smaller, reusable functions.
 
+-- CS50P Problem set 5 --
 
+in this prroblem set i was immediately faced with a problem i previously discussed; not breaking down my code into smallerr fumcitioms
+this increases readability and makes it easierr to test 
+
+Problems I struggled with:
+
+Vanity Plates:
+this unit test took me by far the longest, it was a trial and error i had to wrtie ALOT of test cases and hope it would run 
+but in the end i overcame it 
+
+im getting alot better at wrriting rreadabel code and splitting uop my though process though 
