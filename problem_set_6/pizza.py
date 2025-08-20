@@ -29,7 +29,6 @@ def args():
         sys.exit('Not a CSV file')
 
 
-# returns the value of the first line in the csv file as a header for the table as str
 def get_header(f):
     try:
         with open(f, 'r', newline='') as csvfile:
@@ -37,8 +36,9 @@ def get_header(f):
             header = ','.join(next(reader))
             return header
     except FileNotFoundError:
-        sys.exit('FIle does not exist')
+        sys.exit('File does not exist')
 
 
 if __name__ == '__main__':
     main()
+
