@@ -40,10 +40,3 @@ def read_file(f):
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
-
