@@ -17,7 +17,8 @@ def main():
 
 def args():
     if len(sys.argv) != 2:
-        sys.exit('Too few command-line arguments' if len(sys.argv) < 2 else 'Too many command-line arguments')
+        sys.exit('Too few command-line arguments' if len(sys.argv) < 2
+                 else 'Too many command-line arguments')
     if sys.argv[1].endswith('.py'):
         return sys.argv[1]
     else:
