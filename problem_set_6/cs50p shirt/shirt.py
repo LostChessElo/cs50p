@@ -4,7 +4,8 @@ from PIL import Image, ImageOps
 
 
 def main():
-    person = shirt()
+    input_file, output_file = file_args()
+    outpt_img = shirt(input_file, output_file)
 
 
 def file_args():
@@ -29,19 +30,17 @@ def file_args():
         sys.exit('Invalid Input')
 
 
-def shirt():
-    input_f, output_f = file_args()
-
+def shirt(inpt, outpt):
     try:
-        student = Image.open(input_f)
+        student = Image.open(inpt)
         image = Image.open('shirt.png')
     except FileNotFoundError:
-        sys.exit(f'Cant open {input_f}')
+        sys.exit(f'Cant open {inpt}')
 
     size = image.size
     person = ImageOps.fit(student, size)
     person.paste(image, image)
-    person.save(output_f)
+    person.save(outpt)
     return person
 
 
