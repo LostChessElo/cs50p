@@ -5,7 +5,7 @@ from PIL import Image, ImageOps
 
 def main():
     input_file, output_file = file_args()
-    outpt_img = shirt(input_file, output_file)
+    shirt(input_file, output_file)
 
 
 def file_args():
