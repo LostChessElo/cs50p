@@ -1,4 +1,4 @@
-=====CS50P=====
+#CS50P 
 
 Note: This README will be used as a journal to document my journey through CS50P.
 P.S. If you notice any repeated letters after words (like the letter "r" over and over), my keyboard is broken — forgive me.
