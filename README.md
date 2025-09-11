@@ -3,7 +3,7 @@
 Note: This README will be used as a journal to document my journey through CS50P.
 P.S. If you notice any repeated letters after words (like the letter "r" over and over), my keyboard is broken — forgive me.
 
--- CS50P Problem Set 0 --
+##CS50P Problem Set 0
 
 I found this set of problems to not be as challenging as I'd like, except for the "Tip" problem, which I got stuck on for a little bit because I'm not as confident with try blocks.
 Overall, I'm feeling confident about the next set of problems.
