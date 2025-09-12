@@ -2,17 +2,8 @@ import sys
 
 
 def main():
-    try:
-        file_name = args()
-        count_lines = 0
-        with open(file_name, 'r') as file:
-            for line in file:
-                if check_line(line.strip()):
-                    count_lines += 1
-            print(count_lines)
-
-    except FileNotFoundError:
-        sys.exit('File does not exist')
+    file_ = args()
+    print(count(file_))
 
 
 def args():
@@ -30,6 +21,19 @@ def check_line(s):
         return False
     else:
         return True
+
+
+def count(f):
+    try:
+        count_lines = 0
+        with open(f, 'r') as file:
+            for line in file:
+                if check_line(line.strip()):
+                    count_lines += 1
+            return count_lines
+
+    except FileNotFoundError:
+        sys.exit('File does not exist')
 
 
 if __name__ == '__main__':
